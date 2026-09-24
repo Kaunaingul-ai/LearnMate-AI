@@ -1,0 +1,52 @@
+[
+  {
+    "id": "ml_001",
+    "topic": "Machine Learning",
+    "content": "Machine learning is a branch of artificial intelligence where systems learn patterns from data and use those patterns to make predictions or decisions without being explicitly programmed for every case."
+  },
+  {
+    "id": "ml_002",
+    "topic": "Supervised Learning",
+    "content": "Supervised learning trains a model using labelled data, where each training example contains both input features and a known target output. Common supervised learning tasks include classification and regression."
+  },
+  {
+    "id": "ml_003",
+    "topic": "Unsupervised Learning",
+    "content": "Unsupervised learning works with unlabelled data and aims to discover hidden structures or patterns. Common examples include clustering, dimensionality reduction, and anomaly detection."
+  },
+  {
+    "id": "ml_004",
+    "topic": "Overfitting",
+    "content": "Overfitting happens when a machine learning model learns the training data too closely, including noise and random patterns, and therefore performs poorly on unseen data. Common solutions include regularization, cross-validation, simpler models, more training data, and early stopping."
+  },
+  {
+    "id": "dl_001",
+    "topic": "Deep Learning",
+    "content": "Deep learning is a subset of machine learning based on neural networks with multiple layers. It is especially useful for complex data such as images, audio, and natural language."
+  },
+  {
+    "id": "nlp_001",
+    "topic": "Natural Language Processing",
+    "content": "Natural Language Processing, or NLP, is a field of artificial intelligence that enables computers to process, understand, analyse, and generate human language."
+  },
+  {
+    "id": "cv_001",
+    "topic": "Computer Vision",
+    "content": "Computer vision enables machines to analyse and understand visual information such as images and videos. Common tasks include image classification, object detection, segmentation, and tracking."
+  },
+  {
+    "id": "python_001",
+    "topic": "Python for AI",
+    "content": "Python is widely used in artificial intelligence because it has a simple syntax and a large ecosystem of libraries including NumPy, Pandas, Scikit-learn, PyTorch, TensorFlow, and Hugging Face Transformers."
+  },
+  {
+    "id": "career_001",
+    "topic": "AI Career Skills",
+    "content": "Important skills for an AI career include Python programming, data handling, mathematics and statistics, machine learning fundamentals, model evaluation, Git and GitHub, communication, and practical project experience."
+  },
+  {
+    "id": "project_001",
+    "topic": "Beginner NLP Project",
+    "content": "A beginner-friendly NLP project is sentiment analysis. The goal is to classify text such as reviews or comments as positive, negative, or neutral while learning text preprocessing, feature extraction, model training, and evaluation."
+  }
+]
