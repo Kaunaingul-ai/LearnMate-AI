@@ -494,26 +494,49 @@ Explain Data Science in simple words.
 
 ---
 
-## 📸 Screenshots
 
-Application screenshots can be stored inside:
 
-```text
-assets/
-```
+## 📸 Application Screenshots
 
-Recommended screenshots include:
+### 🏠 LearnMate AI Home Screen
 
-- LearnMate AI home screen
-- overfitting response
-- Retrieved Knowledge section
-- NLP follow-up response
-- project recommendation
-- VS Code project structure
-
-These screenshots can be used in the GitHub README, presentation, internship submission, and LinkedIn portfolio post.
+![LearnMate AI Home Screen](assets/01_home_screen.png)
 
 ---
+
+### 🧠 Overfitting Explanation
+
+![Overfitting Response](assets/02_overfitting_response.png)
+
+---
+
+### 🔎 Retrieved Knowledge — RAG
+
+![Retrieved Knowledge](assets/03_retrieved_knowledge.png)
+
+---
+
+### 💬 Multi-Turn NLP Follow-Up
+
+![NLP Follow-Up](assets/04_nlp_followup.png)
+
+---
+
+### 🚀 AI Project Guidance
+
+![Project Guidance](assets/05_project_guidance.png)
+
+---
+
+### 🆕 New Chat / Conversation Reset
+
+![New Chat Reset](assets/06_new_chat_reset.png)
+
+---
+
+### 💻 Project Structure in VS Code
+
+![VS Code Project Structure](assets/07_vscode_project_structure.png)
 
 ## ✅ Project Evaluation
 
