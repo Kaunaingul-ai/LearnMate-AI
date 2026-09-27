@@ -123,6 +123,7 @@ User Question:
 
             except Exception as e:
                 error_message = str(e).lower()
+                print(f"LEARNMATE ERROR: {type(e).__name__}: {e}")s
 
                 # Temporary service problem
                 if (
