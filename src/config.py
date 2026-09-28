@@ -20,7 +20,7 @@ if GEMINI_API_KEY:
     GEMINI_API_KEY = GEMINI_API_KEY.strip()
 
 # Main Gemini model
-GEMINI_MODEL = "gemini-3.5-flash-lite"
+GEMINI_MODEL = "gemini-3.1-flash-lite"
 
 # Validate configuration
 if not GEMINI_API_KEY:
