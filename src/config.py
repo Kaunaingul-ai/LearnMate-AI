@@ -1,18 +1,30 @@
 import os
 from dotenv import load_dotenv
 
-# Load variables from the local .env file
+# Load local environment variables
 load_dotenv()
 
-# Gemini API key
+# Read Gemini API key from local environment
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 
-# Main Gemini model used by LearnMate AI
+# Fallback to Streamlit Cloud Secrets
+if not GEMINI_API_KEY:
+    try:
+        import streamlit as st
+        GEMINI_API_KEY = st.secrets.get("GEMINI_API_KEY")
+    except Exception:
+        pass
+
+# Remove accidental whitespace
+if GEMINI_API_KEY:
+    GEMINI_API_KEY = GEMINI_API_KEY.strip()
+
+# Main Gemini model
 GEMINI_MODEL = "gemini-3.5-flash-lite"
 
-# Validate required configuration
+# Validate configuration
 if not GEMINI_API_KEY:
     raise ValueError(
         "GEMINI_API_KEY was not found. "
-        "Please add it to your local .env file."
+        "Configure it in your local .env or Streamlit Secrets."
     )
